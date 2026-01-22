@@ -1,6 +1,5 @@
 * {
   margin: 0;
-  font-family: 'Raleway', sans-serif;
 }
 
 /* raleway-100 - latin */
@@ -45,4 +44,8 @@
   font-weight: 900;
   src: url('../public/fonts/raleway-v37-latin-900.woff2') format('woff2');
   /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+.font-raleway {
+  font-family: 'Raleway', sans-serif;
 }
