@@ -1,0 +1,26 @@
+h1 {
+  font-size: 64px;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  font-size: 26px;
+  text-align: center;
+  color: rgb(30, 47, 63);
+  text-shadow:
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff;
+}
+
+section {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../../../public/img/Hero.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+}
