@@ -4,8 +4,8 @@
     justify-content: space-between;
 
     img {
-      width: 32px;
-      height: 32px;
+      width: 64px;
+      height: 64px;
     }
   }
 
@@ -18,11 +18,32 @@
     a {
       text-decoration: none;
       color: white;
-      font-weight: 600;
+      font-weight: 400;
       font-size: 18px;
     }
 
     a:hover {
       color: rgb(255, 187, 215);
     }
+  }
+
+  .phone {
+    width: 24px !important;
+    height: 24px !important;
+  }
+
+  .phone-contact {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: #b30707;
+    padding: 3px 8px;
+    border: solid 2px white;
+    border-radius: 10px;
+  }
+
+  .phone-contact:hover {
+    scale: 1.1;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
   }
