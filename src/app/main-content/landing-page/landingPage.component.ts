@@ -1,11 +1,11 @@
-import { Component, signal } from '@angular/core';
+import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { Navbar } from "./navbar/navbar.component";
+import { NavbarComponent } from "./navbar/navbar.component";
 
 @Component({
   selector: 'app-landingPage',
   standalone: true,
-  imports: [CommonModule, Navbar],
+  imports: [CommonModule, NavbarComponent],
   template: `
   <section>
     <app-navbar></app-navbar>
