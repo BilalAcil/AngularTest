@@ -20,4 +20,34 @@ img {
 
 .menu {
   margin-bottom: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
+
+.menu p {
+  font-family: "raleway", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: #675E54;
+}
+
+.Menu-name {
+  display: inline-block;
+  margin-bottom: 16px;
+  font-family: "Economica", sans-serif;
+  font-weight: bold;
+  font-size: 56px;
+}
+
+.menu>div>div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.menu-prise {
+  width: 440px;
 }
